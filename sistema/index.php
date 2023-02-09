@@ -146,8 +146,8 @@ include_once("../config.php");
 
                     </div>
                     <div class="form-group">
-                        <label> CPF </label>
-                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Insira seu CPF">
+                        <label> Setor </label>
+                        <input type="text" class="form-control" id="setor" name="setor" placeholder="Insira seu Setor">
                     </div>
 
                     <div class="row">
