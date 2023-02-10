@@ -1,6 +1,14 @@
+
+
 <?php
-include_once("../config.php");
+include_once "sistema";
 ?>
+
+
+<?php
+include_once "database.php";
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -54,22 +62,21 @@ include_once("../config.php");
                             <form action="" method="post" name="login">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entre com Email ou CPF">
+                                    <input type="email" name="login_email" class="form-control" id="login_email" aria-describedby="emailHelp" placeholder="Entre com Email">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Senha</label>
-                                    <input type="password" name="password" id="senha" class="form-control" aria-describedby="emailHelp" placeholder="Insira a senha">
+                                    <input type="password" name="login_senha" id="login_senha" class="form-control" aria-describedby="emailHelp" placeholder="Insira a senha">
                                 </div>
 
                                 <div class="col-md-12 text-center ">
-                                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm" name="submit" id="submit">Login</button>
                                 </div>
 
 
                                 <div class="form-group mt-4">
                                     <small>
-                                        <p class="text-center">Não possui cadastro? <a href="#" data-toggle="modal" data-target="#modalCadastro">Cadastrar</a></p>
-
+                                        <p class="text-center">Não possui cadastro? <a href="#" data-toggle="modal" data-target="#modalCadastro">Cadastrar</a> / <a href="/RESTAURANTE_TESSIN/" >Voltar</a></p>
                                         <p class="text-center"><a class="text-danger" href="#" data-toggle="modal" data-target="#modalRecuperar">Recuperar senha?</a></p>
                                     </small>
                                 </div>
@@ -84,7 +91,8 @@ include_once("../config.php");
                                     <h1>Signup</h1>
                                 </div>
                             </div>
-                            <form action="#" name="registration">
+                            
+                            <form action="validarlogin.php"  method="POST">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">First Name</label>
                                     <input type="text" name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">

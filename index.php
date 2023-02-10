@@ -1,10 +1,9 @@
 <?php
-require_once("cabecalho.php");
+require_once("cabecalho2.php");
 
 ?>
-
-
 <!-- Hero Section Begin -->
+<!-- Hero Section Begin 
 <section class="hero">
     <div class="container">
         <div class="row">
@@ -59,9 +58,16 @@ require_once("cabecalho.php");
     </div>
     </div>
 </section>
+
+-->
+
+
+
+
 <!-- Hero Section End -->
 <br><br>
 <!-- Categories Section Begin -->
+<!-- Categories Section Begin 
 <section class="categories">
     <div class="container">
         <div class="row">
@@ -94,7 +100,7 @@ require_once("cabecalho.php");
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Categories Section End -->
 
 <!-- Featured Section Begin -->
@@ -107,7 +113,7 @@ require_once("cabecalho.php");
                 </div>
                 <div class="featured__controls">
                     <ul>
-                        <li class="active" data-filter="*">Semanal</li>
+                      <!-- <li class="active" data-filter="*">Semanal</li>-->
                         <li data-filter=".principal_opcao_segunda">Segunda</li>
                         <li data-filter=".principal_opcao_terca">Terça</li>
                         <li data-filter=".principal_opcao_quarta">Quarta</li>
@@ -118,28 +124,11 @@ require_once("cabecalho.php");
                 </div>
             </div>
         </div>
+
+
+ <!-- PRATO PRINCIPAL SEGUNDA -->
         <div class="row featured__filter">
-            <div class="col-lg-3 col-md-4 col-sm-6 mix asus fresh-meat">
-                <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/celular/zenfone3.png">
-                        <ul class="featured__item__pic__hover">
-                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="featured__item__text">
-                        <h6><a href="celular.php">Zenfone 3</a></h6>
-                        <h5>$1.379,99</h5>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-
-              <!-- PRATO PRINCIPAL SEGUNDA -->
+             
             
             <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
                 <div class="featured__item">
@@ -214,58 +203,56 @@ require_once("cabecalho.php");
             </div>
 
 
-
+            <!-- CARROSSEL GUARNIÇÃO-->
             <div class="categories__slider owl-carousel">
                 <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="img/celular/guarnicao.png">
-                        <h5><a href="#">guarnição</a></h5>
+                        <h5><a href="#">Guarnição</a></h5><br>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Tutu de feijão</h6>
                     </div>
                 </div>
+
+
+            <!-- CARROSSEL SOBREMESA-->
                 <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="img/celular/sobremesa.png">
                         <h5><a href="#">sobremesa</a></h5>
                     </div>
+                    <div class="featured__item__text">
+                    <h6>Gelatna / Fruta / Doce / Pudim</h6>
+                    </div>
                 </div>
+
+
+
+
+
+             <!-- CARROSSEL SOBREMESA-->
                 <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="img/celular/suco.png">
-                        <h5><a href="#">suco</a></h5>
+                        <h5><a href="#">Bedidas</a></h5>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Sucos</h6>
                     </div>
                 </div>
+
+
+
+
+                <!-- CARROSSEL SALADA-->
                 <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="img/celular/salada.png">
-                        <h5><a href="#">salada</a></h5>
+                        <h5><a href="#">Buffet de salada</a></h5>
                     </div>
-                </div>
-                
+                    <div class="featured__item__text">
+                    <h6>Saladas Diversas</h6>
+                    </div>
                 </div>
 
        </div>
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -346,7 +333,7 @@ require_once("cabecalho.php");
 -->
 
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>   <br><br>
 
 
 <!-- Blog Section End -->
