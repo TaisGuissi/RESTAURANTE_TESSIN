@@ -3,7 +3,7 @@ require_once("config.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -60,7 +60,7 @@ require_once("config.php");
             </ul>
             <div class="header__cart__price">item: <span>$150.00</span></div>
             <div class="header__top__right__auth ml-4">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
+                <a href="#"><i class="fa fa-user"></i>  </a>
             </div>
         </div>
         <div class="humberger__menu__widget">
@@ -110,7 +110,7 @@ require_once("config.php");
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> <?php echo $email ?></li>
+                                <li><i class="fa fa-envelope"></i> <?php echo $$logado ?></li>
                                 <li><?php echo $texto_destaque ?></li>
                             </ul>
                         </div>

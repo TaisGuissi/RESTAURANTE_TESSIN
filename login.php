@@ -42,9 +42,6 @@ include_once "database.php";
 </head>
 
 <body>
-
-
-
     <body>
         <div class="container">
             <div class="row">

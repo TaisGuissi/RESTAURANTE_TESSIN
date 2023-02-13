@@ -24,7 +24,7 @@ if(isset($_POST['submit'])&& !empty($_POST['login_email'])&& !empty($_POST['logi
 
         $_SESSION['login_email'] = $login_email;
         $_SESSION['login_email'] = $login_email;
-        header('location: .php'); 
+        header('location: index.php'); 
         
     }
 

@@ -17,7 +17,7 @@ $logado = $_SESSION['login_email'];
 
 
 
-<div class="box">
+<!--<div class="box">
 
 
     <fieldset>
@@ -28,6 +28,7 @@ $logado = $_SESSION['login_email'];
    
     </fieldset>
     </div>
-    <br><br>
+    <br><br>-
+-->
 
     
