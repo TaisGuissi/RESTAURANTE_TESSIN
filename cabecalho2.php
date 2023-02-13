@@ -50,6 +50,8 @@ require_once("config.php");
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
+
+    <?php require_once "logadosucesso.php"?>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -57,8 +59,9 @@ require_once("config.php");
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> <?php echo $email ?></li>
-                                <li><?php echo $texto_destaque ?></li>
+                                <li><i class="fa fa-envelope"></i> <?php echo $logado ?></li>
+                               <!-- <li><?php echo $texto_destaque ?></li>-->
+                               <a href='sair.php'> <button>SAIR</button><br><br>
                             </ul>
                         </div>
                     </div>
@@ -72,7 +75,7 @@ require_once("config.php");
 
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="sistema/login.php"><i class="fa fa-user"></i> Login</a>
+                                <a href="login.php"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>

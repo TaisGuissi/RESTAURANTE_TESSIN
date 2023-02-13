@@ -2,6 +2,7 @@
 require_once("cabecalho2.php");
 
 ?>
+
 <!-- Hero Section Begin -->
 <!-- Hero Section Begin 
 <section class="hero">
