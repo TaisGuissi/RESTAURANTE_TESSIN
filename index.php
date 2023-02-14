@@ -314,7 +314,7 @@ require_once("cabecalho2.php");
             
              <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
                  <div class="featured__item">
-                     <div class="featured__item__pic set-bg" data-setbg="img/celular/principal.png">
+                     <div class="featured__item__pic set-bg" data-setbg="img/celular/lightp.png">
                          <ul class="featured__item__pic__hover">
                              <li><a href="selecionado.php"><i class="fa fa-heart"></i></a></li>
                              <li><a href="#"><i class="fa fa-retweet"></i></a></li>
