@@ -204,8 +204,26 @@ require_once("cabecalho2.php");
             </div>
 
 
-            <!-- CARROSSEL GUARNIÇÃO-->
-            <div class="categories__slider owl-carousel">
+            
+<!-- Featured Section Begin -->
+<section class="featured spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>GUARNIÇÃO - SOBREMESA - SUCOS - SALADAS </h2>
+                </div>
+                <div class="featured__controls">
+                    <ul>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+     <!-- CARROSSEL GUARNIÇÃO-->
+     <div class="categories__slider owl-carousel">
                 <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="img/celular/guarnicao.png">
                         <h5><a href="#">Guarnição</a></h5><br>
@@ -227,6 +245,183 @@ require_once("cabecalho2.php");
                 </div>
 
 
+
+             <!-- CARROSSEL SOBREMESA-->
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="img/celular/suco.png">
+                        <h5><a href="#">Bedidas</a></h5>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Sucos</h6>
+                    </div>
+                </div>
+
+
+
+
+                <!-- CARROSSEL SALADA-->
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="img/celular/salada.png">
+                        <h5><a href="#">Buffet de salada</a></h5>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Saladas Diversas</h6>
+                    </div>
+                </div>
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Featured Section Begin -->
+<section class="featured spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>CARDÁPIO LIGHT </h2>
+                </div>
+                <div class="featured__controls">
+                    <ul>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+ <!-- PRATO PRINCIPAL SEGUNDA -->
+ <div class="row featured__filter">
+             
+            
+             <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                 <div class="featured__item">
+                     <div class="featured__item__pic set-bg" data-setbg="img/celular/principal.png">
+                         <ul class="featured__item__pic__hover">
+                             <li><a href="selecionado.php"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="featured__item__text">
+                         <h6><a href="#">Principal</a></h6>
+                         <h5>Carne Moída</h5>
+                     </div>
+                 </div>
+             </div>
+
+            
+
+              <!-- PRATO OPÇÃO SEGUNDA  -->
+            
+              <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                <div class="featured__item">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/opcao.png">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="#">Opção</a></h6>
+                        <h5>Linguiça</h5>
+                    </div>
+                </div>
+            </div>
+
+                   <!-- PRATO OVO SEGUNDA -->
+            
+                   <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                <div class="featured__item">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/ovo.png">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="#">Ovo</a></h6>
+                        <h5>Ovo</h5>
+                    </div>
+                </div>
+            </div>
+
+              <!-- PRATO LIGHT SEGUNDA -->
+            
+              <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                <div class="featured__item">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/light.png">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="#">Light</a></h6>
+                        <h5>Light</h5>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Featured Section Begin -->
+<section class="featured spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                <h2>LIGHT  GUARNIÇÃO - SOBREMESA - SUCOS - SALADAS </h2>
+                </div>
+                <div class="featured__controls">
+                    <ul>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+            <!-- CARROSSEL GUARNIÇÃO-->
+            <div class="categories__slider owl-carousel">
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="img/celular/guarnicao.png">
+                        <h5><a href="#">Guarnição</a></h5><br>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Tutu de feijão</h6>
+                    </div>
+                </div>
+
+
+            <!-- CARROSSEL SOBREMESA-->
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg" data-setbg="img/celular/sobremesa.png">
+                        <h5><a href="#">sobremesa</a></h5>
+                    </div>
+                    <div class="featured__item__text">
+                    <h6>Gelatna / Fruta / Doce / Pudim</h6>
+                    </div>
+                </div>
 
 
 
