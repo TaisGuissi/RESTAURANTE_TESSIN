@@ -20,9 +20,9 @@ require_once("cabecalho2.php");
                         <li><a href="#"  data-toggle="modal" data-target="#modalCadastroLight">Cardápio Light</a></li>
                         <li><a href="#"  data-toggle="modal" data-target="#modalCadastroLightOpicional">Cardápio Light Opicional</a></li>
                         <li><a href="#"  data-toggle="modal" data-target="#modalCadastroOvo">Cardápio Ovo</a></li>
-                        <li><a href="#"  data-toggle="modal" data-target="#modalCadastroGuarnição">Guarnição</a></li>
+                        <li><a href="#"  data-toggle="modal" data-target="#modalCadastroGuarnicao">Guarnição</a></li>
                         <li><a href="#"  data-toggle="modal" data-target="#modalCadastroSobremesa">Sobremesa</a></li>
-                        <li><a href="#"  data-toggle="modal" data-target="#modalCadastroSaladas">Saladas</a></li>
+                        <li><a href="#"  data-toggle="modal" data-target="#modalCadastroSalada">Saladas</a></li>
                         <li><a href="#"  data-toggle="modal" data-target="#modalCadastroSuco">Suco</a></li>
                        
                     </ul>
@@ -113,6 +113,7 @@ require_once("cabecalho2.php");
     </div>
 </div>
 
+
 <!-- Modal Cadastro Prato Principal-->
 
 <div class="modal fade" id="modalCadastroPrincipal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -126,43 +127,214 @@ require_once("cabecalho2.php");
             </div>
             <div class="modal-body">
 
-                <form>s
+                <form>
                     <div class="form-group">
 
                         <div class="form-group">
                             <label> Nome Prato Principal </label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira seu nome">
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Prato Principal">
                         </div>
-                        <label for="Data"> Data </label>
-                        <input type="date" class="form-control" id="Data" name="Data" VAlue="2023-02-15"placeholder="">
+                        <label for="DataPrincipal"> Data </label>
+                        <input type="date" class="form-control" id="DataPrincipal" name="DataPrincipal" VAlue="2023-02-15"placeholder="">
 
-                        <label for="Dia"> DIa da Semana </label>
-                        <input type="text" class="form-control" id="Dia" name="Dia" placeholder="">
+                        <label for="DiaPrincipal"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaPrincipal" name="DiaPrincipal" placeholder="">
 
                     </div>
 
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<!-- Modal Cadastro Prato Opicional-->
 
+<div class="modal fade" id="modalCadastroOpicional" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Prato Principal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
 
-
+                <form>
                     <div class="form-group">
-                        <label> Setor </label>
-                        <input type="text" class="form-control" id="setor" name="setor" placeholder="Insira seu Setor">
+
+                        <div class="form-group">
+                            <label> Nome Prato Principal </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Prato Principal">
+                        </div>
+                        <label for="DataOpicional"> Data </label>
+                        <input type="date" class="form-control" id="DataOpicional" name="DataOpicional" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaOpicional"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaOpicional" name="DiaOpicional" placeholder="">
+
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label> Senha </label>
-                                <input type="password" class="form-control" id="senha" name="senha" placeholder="Insira sua senha">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-                            <label> Confirmar Senha </label>
-                            <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha">
+
+<!-- Modal Cadastro Prato Light-->
+
+<div class="modal fade" id="modalCadastroLight" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Prato Light</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Nome Prato Light </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Prato Light">
                         </div>
+                        <label for="DataLight"> Data </label>
+                        <input type="date" class="form-control" id="DataLight" name="DataLight" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaLight"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaLight" name="DiaLight" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Cadastro Prato Light Opicional-->
+
+<div class="modal fade" id="modalCadastroLightOpicional" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Light Opicional </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Nome Prato Light </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Prato Light">
+                        </div>
+                        <label for="DataLightOpicional"> Data </label>
+                        <input type="date" class="form-control" id="DataLightOpicional" name="DataLightOpicinal" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaLightOpicional"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaLightOpicional" name="DiaLightOpicional" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Cadastro Ovo-->
+
+<div class="modal fade" id="modalCadastroOvo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ovo </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Ovo </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Ovo Frito / Omelete">
+                        </div>
+                        <label for="DataOvo"> Data </label>
+                        <input type="date" class="form-control" id="DataOvo" name="DataOvo" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaOvo"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaOvo" name="DiaOvo" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Cadastro Guarnição-->
+
+<div class="modal fade" id="modalCadastroGuarnicao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Guarnição </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Guarnição </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Inserir Guarnição">
+                        </div>
+                        <label for="DataGuarnicao"> Data </label>
+                        <input type="date" class="form-control" id="DataGuarnicao" name="DataGuarnicao" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaGuarnicao"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaGuarnicao" name="DiaGuarnicao" placeholder="">
+
                     </div>
 
                     <div class="modal-footer">
@@ -177,10 +349,125 @@ require_once("cabecalho2.php");
 
 
 
+<!-- Modal Cadastro Sobremesa-->
+
+<div class="modal fade" id="modalCadastroSobremesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Guarnição </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Sobremesa </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Inserir Sobremesa">
+                        </div>
+                        <label for="DataSobremesa"> Data </label>
+                        <input type="date" class="form-control" id="DataSobremesa" name="DataSobremesa" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaSobremesa"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaSobremesa" name="DiaSobremesa" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<!-- Modal Cadastro Salada-->
+
+<div class="modal fade" id="modalCadastroSalada" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Buffet de saladas </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Salada </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Inserir Sobremesa">
+                        </div>
+                        <label for="DataSalada"> Data </label>
+                        <input type="date" class="form-control" id="DataSalada" name="DataSalada" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaSalada"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaSalada" name="DiaSalada" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Cadastro Suco-->
+
+<div class="modal fade" id="modalCadastroSuco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Buffet de saladas </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label> Bebidas </label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Sabor">
+                        </div>
+                        <label for="DataSuco"> Data </label>
+                        <input type="date" class="form-control" id="DataSuco" name="DataSuco" VAlue="2023-02-15"placeholder="">
+
+                        <label for="DiaSuco"> Dia da Semana </label>
+                        <input type="text" class="form-control" id="DiaSuco" name="DiaSuco" placeholder="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<!--Script Dia da semana-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/diadasemana.js"></script>
 
 
 
