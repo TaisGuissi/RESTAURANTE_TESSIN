@@ -146,9 +146,6 @@ require_once("cabecalho2.php");
 
 
 
-
-
-
                     <div class="form-group">
                         <label> Setor </label>
                         <input type="text" class="form-control" id="setor" name="setor" placeholder="Insira seu Setor">
