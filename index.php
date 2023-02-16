@@ -3,6 +3,7 @@ require_once("cabecalho2.php");
 
 ?>
 
+
 <!-- Hero Section Begin -->
 <!-- Hero Section Begin 
 <section class="hero">
@@ -133,9 +134,29 @@ require_once("cabecalho2.php");
             
             <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/celular/principal.png">
+                    <div class="featured__item__pic set-bg" data-setbg="">
                         <ul class="featured__item__pic__hover">
                             <li><a href="selecionado.php"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="#"></a></h6>
+                        <h5> </h5>
+                    </div>
+                </div>
+            </div>
+
+              <!-- PRATO OVO SEGUNDA -->
+
+                  <!-- PRATO PRINCIPAL SEGUNDA -->
+            
+                   <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                <div class="featured__item">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/principal.png">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                         </ul>
@@ -146,7 +167,6 @@ require_once("cabecalho2.php");
                     </div>
                 </div>
             </div>
-
             
 
               <!-- PRATO OPÇÃO SEGUNDA  -->
@@ -167,7 +187,43 @@ require_once("cabecalho2.php");
                 </div>
             </div>
 
+
+
+
+
+ <!-- PRATO PRINCIPAL SEGUNDA -->
+ <div class="row featured__filter">
+             
+            
+             <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
+                 <div class="featured__item">
+                     <div class="featured__item__pic set-bg" data-setbg="">
+                         <ul class="featured__item__pic__hover">
+                             <li><a href="selecionado.php"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="featured__item__text">
+                         <h6><a href="#"></a></h6>
+                         <h5> </h5>
+                     </div>
+                 </div>
+             </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
                    <!-- PRATO OVO SEGUNDA -->
+                   
             
                    <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
                 <div class="featured__item">
@@ -179,17 +235,17 @@ require_once("cabecalho2.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Ovo</a></h6>
+                
                         <h5>Ovo</h5>
                     </div>
                 </div>
             </div>
 
               <!-- PRATO LIGHT SEGUNDA -->
-            
+          
               <div class="col-lg-3 col-md-4 col-sm-6 mix principal_opcao_segunda fastfood">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/celular/light.png">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/omelete.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -197,12 +253,12 @@ require_once("cabecalho2.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Light</a></h6>
-                        <h5>Light</h5>
+                       
+                        <h5>Omelete</h5>
                     </div>
                 </div>
             </div>
-
+           
 
             
 <!-- Featured Section Begin -->
