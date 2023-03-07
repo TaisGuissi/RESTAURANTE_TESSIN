@@ -285,7 +285,7 @@ require_once("cabecalho2.php");
                         <h5><a href="#">Guarnição</a></h5><br>
                     </div>
                     <div class="featured__item__text">
-                    <h6>Tutu de feijão</h6>
+                    <h6><?php $SQL = "SELECT nome_guarnicao FROM guarnicao" ?></h6>
                     </div>
                 </div>
 
@@ -464,7 +464,7 @@ require_once("cabecalho2.php");
                         <h5><a href="#">Guarnição</a></h5><br>
                     </div>
                     <div class="featured__item__text">
-                    <h6>Tutu de feijão</h6>
+                    <h6><?php $SQL = "SELECT nome_guarnicao FROM guarnicao" ?></h6>
                     </div>
                 </div>
 

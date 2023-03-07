@@ -4,7 +4,7 @@
 
 define("SERVER_LOCAL","localhost");
 define("SERVER_USER","root");
-define("SERVER_PASSWORD","");
+define("SERVER_PASSWORD","11171100952");
 define("DATABASE_NAME","db_restaurante_tessin");
 
 
