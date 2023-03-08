@@ -151,7 +151,7 @@ require_once("init.php");
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-                        <button type="button" id="cadastro" name="cadastro" class="btn btn-info">Cadastrar</button>
+                        <button type="submit" id="cadastro" name="cadastrar" class="btn btn-info">Cadastrar</button>
                     </div>
                 </form>
             </div>

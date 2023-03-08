@@ -4,8 +4,8 @@ session_start();
 
 
 if(isset($_POST['submit'])&& !empty($_POST['login_email'])&& !empty($_POST['login_senha'])){
-    include_once "database.php";
-    include_once "cabecalho2.php";
+    include_once "view\database.php";
+    include_once "view\cabecalho2.php";
     
     $login_email = $_POST["login_email"];
     $login_senha = $_POST["login_senha"];
