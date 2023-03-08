@@ -1,5 +1,7 @@
 <?php
 require_once("../model/principal.php");
+
+
 class cadastroController{
 
     private $cadastro;
@@ -23,3 +25,4 @@ class cadastroController{
     }
 }
 new cadastroController();
+?>

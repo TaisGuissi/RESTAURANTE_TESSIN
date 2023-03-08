@@ -15,7 +15,7 @@ class Banco{
 
     public function setPrincipal($nome_principal,$data_principal,$dia_semana_principal){
         $stmt = $this->mysqli->prepare("INSERT INTO principal (`nome_principal`, `data_principal`, `dia_semana_principal`) VALUES (?,?,?)");
-        $stmt->bind_param("sssss",$nome_principal,$data_principal,$dia_semana_principal);
+        $stmt->bind_param("sss",$nome_principal,$data_principal,$dia_semana_principal);
          if( $stmt->execute() == TRUE){
             return true ;
         }else{

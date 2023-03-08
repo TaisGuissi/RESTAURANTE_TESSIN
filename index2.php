@@ -2,6 +2,7 @@
 require_once("view\cabecalho2.php");
 
 ?>
+  
 
 <!-- Hero Section Begin -->
 
@@ -121,10 +122,7 @@ require_once("view\cabecalho2.php");
 
 <div class="modal fade" id="modalCadastroPrincipal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-    <?php
-require_once("init.php");
-
-?>
+ 
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Prato Principal</h5>
@@ -134,7 +132,8 @@ require_once("init.php");
             </div>
             <div class="modal-body">
 
-                <form>
+                
+                <form method="post" action="../RESTAURANTE_TESSIN/controller/ControllerPrincipal.php" id="form" name="form" onsubmit="validar(document.form); return false;" class="col-10">
                     <div class="form-group">
 
                         <div class="form-group">
