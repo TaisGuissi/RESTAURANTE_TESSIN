@@ -1,5 +1,5 @@
 <?php
-require_once("cabecalho2.php");
+require_once("view\cabecalho2.php");
 
 ?>
 

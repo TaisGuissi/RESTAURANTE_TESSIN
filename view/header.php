@@ -1,1 +1,1 @@
-<?php require_once "logadosucesso.php"?>
+<?php require_once "view\logadosucesso.php"?>

@@ -1,5 +1,5 @@
 <?php
-    require_once("config.php");
+    require_once("view\config.php");
     $destinatario = $email;
     $assunto = $nome_loja . ' - Nome da Loja ';
 
@@ -11,3 +11,4 @@
     mail($destinatario, $assunto, $mensagem, $cabecalhos);
 
     echo 'Enviado com Sucesso!';
+?>

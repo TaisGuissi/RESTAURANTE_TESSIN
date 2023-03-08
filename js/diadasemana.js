@@ -3,12 +3,12 @@
 // Prato Principal
 $(function(){
    
-    $("#DataPrincipal").on("change", function(){
+    $("#data_principal").on("change", function(){
        
        var d = this.value.split("-");
        var data = new Date(d[0], d[1]-1, d[2]).getDay();
-       var dia_principal = ['DOMINGO', 'SEGUNDA', 'TERÇA', 'QUARTA', 'QUINTA', 'SEXTA', 'SÁBADO'][data];
-       $("#DiaPrincipal").val(dia_principal);
+       var dia_semana_principal = ['DOMINGO', 'SEGUNDA', 'TERÇA', 'QUARTA', 'QUINTA', 'SEXTA', 'SÁBADO'][data];
+       $("#dia_semana_principal").val(dia_semana_principal);
        
     }).change();
     

@@ -1,5 +1,5 @@
 <?php
-include_once("cabecalho2.php");
+include_once("view\cabecalho2.php");
 ?>
 
 <?php

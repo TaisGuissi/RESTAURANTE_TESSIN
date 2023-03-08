@@ -1,7 +1,8 @@
 <?php
-require_once("cabecalho2.php");
+require_once("view\cabecalho2.php");
 
 ?>
+
 <!-- Hero Section Begin -->
 
 <section class="hero">
@@ -117,8 +118,13 @@ require_once("cabecalho2.php");
 
 <!-- Modal Cadastro Prato Principal-->
 
+
 <div class="modal fade" id="modalCadastroPrincipal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
+    <?php
+require_once("init.php");
+
+?>
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Prato Principal</h5>
@@ -133,19 +139,19 @@ require_once("cabecalho2.php");
 
                         <div class="form-group">
                             <label> Nome Prato Principal </label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Prato Principal">
+                            <input type="text" class="form-control" id="nome_principal" name="nome_principal" placeholder="Prato Principal">
                         </div>
                         <label for="DataPrincipal"> Data </label>
-                        <input type="date" class="form-control" id="DataPrincipal" name="DataPrincipal" VAlue="2023-02-15"placeholder="">
+                        <input type="date" class="form-control" id="data_principal" name="data_principal" VAlue="2023-02-15"placeholder="">
 
                         <label for="DiaPrincipal"> Dia da Semana </label>
-                        <input type="text" class="form-control" id="DiaPrincipal" name="DiaPrincipal" placeholder="">
+                        <input type="text" class="form-control" id="dia_semana_principal" name="dia_semana_principal" placeholder="">
 
                     </div>
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                        <button type="button" id="cadastro" name="cadastro" class="btn btn-info">Cadastrar</button>
                     </div>
                 </form>
             </div>
@@ -463,97 +469,17 @@ require_once("cabecalho2.php");
             </div>
         </div>
     </div>
+
+
+
+
+    
 </div>
 
 
 <!--Script Dia da semana-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/diadasemana.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <?php

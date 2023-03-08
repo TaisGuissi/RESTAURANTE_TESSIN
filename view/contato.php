@@ -1,13 +1,13 @@
 <?php
-require_once("cabecalho.php");
+require_once("view\cabecalho.php");
 
 ?>
 <?php
-require_once("cabecalho-busca.php");
+require_once("view\cabecalho-busca.php");
 
 ?>
 <?php
-require_once("config.php");
+require_once("view\config.php");
 
 ?>
 
