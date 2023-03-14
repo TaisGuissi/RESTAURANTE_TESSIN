@@ -54,7 +54,7 @@ require_once("view\cabecalho2.php");
                 </div>
                 <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
 
-                    <a href="#" class="primary-btn">Ver Cardápio Semanal</a>
+                    <a href="/RESTAURANTE_TESSIN/view/listar_principal.php" class="primary-btn">Ver Cardápio Semanal</a>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@ require_once("view\cabecalho2.php");
             <div class="modal-body">
 
                 
-                <form method="post" action="../RESTAURANTE_TESSIN/controller/ControllerPrincipal.php" id="form" name="form" onsubmit="validar(document.form); return false;" class="col-10">
+                <form method="post" action="../RESTAURANTE_TESSIN/controller/ControllerPrincipalCadastro.php" id="form" name="form" onsubmit="validar(document.form); return false;" class="col-10">
                     <div class="form-group">
 
                         <div class="form-group">

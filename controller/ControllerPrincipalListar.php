@@ -16,7 +16,7 @@ class listarController{
             echo "<tr>";
             echo "<th>".$value['nome_principal'] ."</th>";
 
-            echo "<td><a class='btn btn-warning' href='editar.php?id=".$value['nome']."'>Editar</a><a class='btn btn-danger' href='../controller/ControllerDeletar.php?id=".$value['nome']."'>Excluir</a></td>";
+            echo "<td><a class='btn btn-warning' href='editar.php?id=".$value['nome_principal']."'>Editar</a><a class='btn btn-danger' href='../controller/ControllerDeletar.php?id=".$value['nome_principal']."'>Excluir</a></td>";
             echo "</tr>";
         }
     }

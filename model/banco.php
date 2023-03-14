@@ -42,6 +42,7 @@ class Banco{
 
     }
     public function pesquisaPrincipal($id){
+
         $result = $this->mysqli->query("SELECT * FROM principal WHERE nome_principal='$id'");
         return $result->fetch_array(MYSQLI_ASSOC);
 
