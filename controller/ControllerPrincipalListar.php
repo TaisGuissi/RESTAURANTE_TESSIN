@@ -15,6 +15,8 @@ class listarController{
         foreach ($row as $value){
             echo "<tr>";
             echo "<th>".$value['nome_principal'] ."</th>";
+            echo "<th>".$value['data_principal'] ."</th>";
+            echo "<th>".$value['dia_semana_principal'] ."</th>";
 
             echo "<td><a class='btn btn-warning' href='editar.php?id=".$value['nome_principal']."'>Editar</a><a class='btn btn-danger' href='../controller/ControllerDeletar.php?id=".$value['nome_principal']."'>Excluir</a></td>";
             echo "</tr>";

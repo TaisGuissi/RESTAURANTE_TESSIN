@@ -1,7 +1,6 @@
 <?php
 require_once("view\config.php");
 ?>
-
 <!DOCTYPE html>
 <html lang="zxx">
 

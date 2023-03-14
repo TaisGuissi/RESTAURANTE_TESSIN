@@ -150,10 +150,11 @@ require_once("view\cabecalho2.php");
                     <div class="featured__item__text">
                         <h6><a href="#">Principal</a></h6>
                         <h5>Carne Moída</h5>
+                        
                     </div>
                 </div>
             </div>
-            <?php new listarController();  ?>
+         
 
               <!-- PRATO OPÇÃO SEGUNDA  -->
             
