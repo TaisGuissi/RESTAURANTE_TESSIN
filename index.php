@@ -4,6 +4,7 @@ require_once("view\cabecalho2.php");
 ?>
 
 
+
 <!-- Hero Section Begin -->
 <!-- Hero Section Begin 
 <section class="hero">
@@ -152,7 +153,7 @@ require_once("view\cabecalho2.php");
                     </div>
                 </div>
             </div>
-            
+            <?php new listarController();  ?>
 
               <!-- PRATO OPÇÃO SEGUNDA  -->
             
